@@ -1,0 +1,21 @@
+{
+    "name": "tractorcow/silverstripe-floc-block",
+    "description": "Blocks Google's FLOC",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian.mooyman@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TractorCow\\SilverStripeFLOCBlock\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

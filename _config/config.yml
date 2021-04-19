@@ -1,0 +1,10 @@
+---
+Name: flock-block
+After:
+  - '#requestprocessors'
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Director:
+    properties:
+      Middlewares:
+        FlocBlockMiddleware: '%$TractorCow\SilverStripeFLOCBlock\FLOCBlockMiddleware'
