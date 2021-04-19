@@ -25,5 +25,5 @@ SS_FLOC_BLOCK=true
 FLOC enabled (the bad thing, what google wants)
 
 ```ini
-SS_BLOCK_BLOCK=false
+SS_FLOC_BLOCK=false
 ```
